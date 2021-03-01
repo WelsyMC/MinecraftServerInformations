@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'fr.welsy.minecraftserverinformations'
+version '1.0.0-RELEASE'
+
+repositories {
+    mavenCentral()
+}
+
+jar{
+    manifest {
+        attributes(
+                "Author": "Ryan <WelsyMC> YANALLAH"
+        )
+    }
+}
+
+dependencies {}
+
